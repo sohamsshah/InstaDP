@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 10px 0px 20px 0px;
+            width: 400px;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        h2 {
+            text-align: center;
+            font-weight: 500;
+            font-size: 25px;
+        }
+        
+        p {
+            text-align: center;
+            font-weight: 300;
+            font-size: 18px;
+            font-family: 'PT Sans Narrow', sans-serif !important;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+        
+        .buttons {
+            padding-left: 15%;
+        }
+        
+        button {
+            position: relative;
+            width: 150px;
+            height: 45px;
+            margin: 0 60px;
+            border-radius: 50px;
+            border: none;
+            outline: none;
+            background: #111111;
+            color: #ffffff;
+            font-size: 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        
+        button:first-child:hover {
+            background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+            background-size: 400%;
+        }
+        
+        button:hover:first-child:before {
+            content: '';
+            position: absolute;
+            background: inherit;
+            top: -5px;
+            right: -5px;
+            bottom: -5px;
+            left: -5px;
+            border-radius: 50px;
+            filter: blur(20px);
+            opacity: 0;
+            transition: opacity .5s;
+        }
+        
+        button:hover:first-child:before {
+            opacity: 1;
+            z-index: -1;
+        }
+        
+        button:hover {
+            z-index: 1;
+            animation: glow 8s linear infinite;
+        }
+        
+        @keyframes glow {
+            0% {
+                background-position: 0%;
+            }
+            100% {
+                background-position: 400%;
+            }
+        }
+        
+        img {
+            width: 100px;
+            height: 60px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <img src="../../icons/instadp1.png">
+    <h2> InstaDP Downloader</h2>
+    <p id="demo"></p>
+    <div>
+        <div class="buttons">
+            <a href="../../icons/instadp2.PNG" download>
+                <button class="automate"> Download <i class="fa fa-download"></i></button>
+            </a>
+        </div>
+    </div>
+
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

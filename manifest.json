@@ -1,0 +1,34 @@
+{
+    "name": "InstaDP Downloader",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "Download DPs in HD Quality with just one click!",
+    "homepage_url": "https://github.com/sohamsshah",
+    "icons": {
+        "16": "icons/instaicon.PNG",
+        "48": "icons/instaicon.PNG",
+        "128": "icons/instaicon.PNG"
+    },
+    "default_locale": "en",
+    "background": {
+        "page": "src/bg/background.html",
+        "persistent": true
+    },
+    "page_action": {
+        "default_icon": "icons/instaicon.png",
+        "default_title": "InstaDP Downloader",
+        "default_popup": "src/page_action/page_action.html"
+    },
+    "permissions": [
+        "https://*/*", "declarativeContent", "tabs"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "https://www.instagram.com/*"
+        ],
+        "js": [
+            "src/inject/inject.js"
+
+        ]
+    }]
+}
