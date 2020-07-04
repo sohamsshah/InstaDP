@@ -41,19 +41,19 @@ Open any User's Instagram Profile and then click on the InstaDP Chrome-Extension
 ---
 
 
-#### Step 2. 
+### Step 2. 
 Click on Download Button
 ![InstaDP Downloader](https://github.com/sohamsshah/InstaDP_Downloader/blob/master/demo/2.png "Step 2")
 
 ---
 
-#### Step 3. 
+### Step 3. 
 DP Downloaded Successfully!
 ![InstaDP Downloader](https://github.com/sohamsshah/InstaDP_Downloader/blob/master/demo/3.PNG "Step 3")
 
 ---
 
-#### Is INACTIVE on other pages:
+### Is INACTIVE on other pages:
 InstaDP is inactive on all web pages except Instagram User Profile Page of FORMAT : www.instagram.com/{username}/
 ![InstaDP Downloader](https://github.com/sohamsshah/InstaDP_Downloader/blob/master/demo/4.png "inactive 1")
 ![InstaDP Downloader](https://github.com/sohamsshah/InstaDP_Downloader/blob/master/demo/5.png "inactive 2")
@@ -66,26 +66,26 @@ InstaDP is inactive on all web pages except Instagram User Profile Page of FORMA
 ---
 
 
-#### Step 1. 
+### Step 1. 
 Go to [chrome://extensions](chrome://extensions)
 ![InstaDP Downloader](https://github.com/sohamsshah/InstaDP_Downloader/blob/master/demo/6.png "Step 1")
 
 ---
 
-#### Step 2. 
+### Step 2. 
 TURN ON developer Mode.
 ![InstaDP Downloader](https://github.com/sohamsshah/InstaDP_Downloader/blob/master/demo/7.png "Step 2")
 
 ---
 
-#### Step 3. 
+### Step 3. 
 Click on "Load Unpacked" and choose the folder where InstaDP Downloader is saved in your system. You can download this by clicking on "Code" button of this Github Page and click on "Download ZIP".
 ![InstaDP Downloader](https://github.com/sohamsshah/InstaDP_Downloader/blob/master/demo/8.png "Step 3")
 
 ---
 
 
-Step 4. 
+### Step 4. 
 Extension Loaded Successfully. Enjoy!
 ![InstaDP Downloader](https://github.com/sohamsshah/InstaDP_Downloader/blob/master/demo/9.png "Step 4")
 
@@ -96,7 +96,7 @@ Extension Loaded Successfully. Enjoy!
 
 * Easy to use
 * Beautiful UI
-* Only *Activated* when user visits the PROFILE Page of the person whose DP is to be downloaded.
+* Only <b>Activated</b> when user visits the PROFILE Page of the person whose DP is to be downloaded.
 * Light-weight 
 * OK Tested
 
